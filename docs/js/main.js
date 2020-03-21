@@ -1,9 +1,7 @@
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 70) {
-            $("#header").css('background', 'rgba(0,0,0,0.95)');
-        } else {
-            $("#header").css("background", 'transparent');
-        }
-    });
-});
+window.onscroll = function() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.background = "#000";
+  } else {
+    document.getElementById("header").style.background = "transparent";
+  }
+};
