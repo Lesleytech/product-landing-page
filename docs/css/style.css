@@ -153,6 +153,9 @@ h1 {
   align-items: center;
 }
 
+#form > input {
+  padding: 5px 10px;
+}
 #email {
   width: 200px;
   background: rgba(0, 0, 0, 0.9);
@@ -173,7 +176,7 @@ h1 {
 }
 
 #submit:hover {
-  background-color: #024cbb;
+  background-color: #003079;
 }
 
 @keyframes dunk {
