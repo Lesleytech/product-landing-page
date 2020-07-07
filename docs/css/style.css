@@ -202,6 +202,7 @@ h5 {
 #submit {
   font-size: 1.6rem;
   height: 34px;
+  border-radius: 0;
 }
 
 footer small {
