@@ -109,7 +109,6 @@ body {
 
 #basketballer {
   max-width: 100%;
-  animation: dunk 1s ease-out;
   position: relative;
 }
 
@@ -217,20 +216,6 @@ h5 {
 
 footer small {
   font-size: 1.4rem;
-}
-
-@keyframes dunk {
-  from {
-    bottom: -100px;
-    left: -75px;
-    transform: scale(0.5);
-  }
-
-  to {
-    bottom: 0px;
-    left: 0px;
-    transform: scale(1);
-  }
 }
 
 @media (max-width: 1000px) {
